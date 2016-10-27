@@ -39,3 +39,90 @@ a {
     width: 1170px;
     margin: 0 auto;
 }
+
+.header {
+    background: url("../img/bg-head.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo {
+    padding-top: 55px;
+}
+
+.logo p {
+    font: 300 20px/20px Merriweather, serif;
+    color: #fff;
+    margin: 10px 0 0 10px;
+}
+/*need to fix*/
+.header-phone {
+    margin: 258px auto;
+    position: absolute;
+    top: 0;
+    left: 570px;
+}
+/**/
+.header-descr {
+    width: 440px;
+    margin-top: 350px;
+}
+
+.header-descr h1 {
+    font: 300 60px/60px OpenSans, sans-serif;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.header-descr p {
+    font: 13px/25px OpenSans, sans-serif;
+    color: #fff;
+}
+
+.column {
+    width: 570px;
+}
+
+.column-1 {
+    margin-top: 112px;
+}
+
+.column-1 h1 {
+    font: 300 35px/35px OpenSans, sans-serif;
+    margin-bottom: 35px;
+}
+
+.column-1 p {
+    font: 14px/25px OpenSans, sans-serif;
+    color: #959595;
+}
+
+.column-2 {
+    margin-top: 275px;
+}
+
+.column-2 p {
+    font: 14px/25px OpenSans, sans-serif;
+    color: #959595;
+}
+
+.pos {
+    outline: 1px solid red;
+    height: 278px;
+}
+
+.pos-1,
+.pos-2 {
+    width: 400px;
+}
+
+.pos-4,
+.pos-5,
+.pos-6,
+.pos-7 {
+    width: 400px;
+}
+
+.pos-3 {
+    width: 800px;
+}
